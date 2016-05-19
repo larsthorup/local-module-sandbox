@@ -18,5 +18,7 @@
     "url": "https://github.com/larsthorup/local-module-sandbox/issues"
   },
   "homepage": "https://github.com/larsthorup/local-module-sandbox#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@larsthorup/local": "^0.2.0"
+  }
 }
