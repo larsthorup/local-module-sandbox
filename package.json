@@ -1,0 +1,22 @@
+{
+  "name": "local-module-sandbox",
+  "version": "0.1.0",
+  "scripts": {
+    "install:utilities": "cd utilities && npm install",
+    "install:model": "cd model && npm install",
+    "install:app": "cd app && npm install",
+    "postinstall": "npm run install:utilities && npm run install:model && npm run install:app",
+    "start": "cd app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsthorup/local-module-sandbox.git"
+  },
+  "author": "Lars Thorup <lars@zealake.com> (http://github.com/larsthorup)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsthorup/local-module-sandbox/issues"
+  },
+  "homepage": "https://github.com/larsthorup/local-module-sandbox#readme",
+  "dependencies": {}
+}
